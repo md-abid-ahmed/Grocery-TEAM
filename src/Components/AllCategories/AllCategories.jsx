@@ -6,6 +6,7 @@ import vegetables from "../../assets/categories/vagetable.png";
 import fruits from "../../assets/categories/fruits.png";
 import dairy from "../../assets/categories/dairy.png";
 import grains from "../../assets/categories/grains.png";
+import biryani from "../../assets/categories/biryani.png";
 
 const AllCategories = () => {
     // Scrolling Bug Fixed
@@ -22,6 +23,7 @@ const AllCategories = () => {
                     {/* All Category Cards */}
                     <section className='grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-5'>
                         {[
+                            { id: 5, name: 'Recipes', img: biryani, bgColor: '#FAF9D7', },
                             { id: 0, name: 'Meat', img: meat, bgColor: '#FEF4EA' },
                             { id: 1, name: 'Vegetables', img: vegetables, bgColor: '#F5F5F5' },
                             { id: 2, name: 'Fruits', img: fruits, bgColor: '#EAF5E3' },

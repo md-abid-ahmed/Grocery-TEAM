@@ -7,6 +7,7 @@ import vegetables from "../../../assets/categories/vagetable.png";
 import fruits from "../../../assets/categories/fruits.png";
 import dairy from "../../../assets/categories/dairy.png";
 import grains from "../../../assets/categories/grains.png";
+import biryani from "../../../assets/categories/biryani.png";
 import "swiper/css";
 import 'swiper/css/navigation';
 import CategoryCard from '../../CategoryCard/CategoryCard';
@@ -82,6 +83,7 @@ const Categories = () => {
             className="mySwiper">
             {
                 [
+                    { id: 5, name: 'Recipes', img: biryani, bgColor: '#f7f1f0', },
                     { id: 0, name: 'Meat', img: meat, bgColor: '#FEF4EA' },
                     { id: 1, name: 'Vegetables', img: vegetables, bgColor: '#F5F5F5' },
                     { id: 2, name: 'Fruits', img: fruits, bgColor: '#EAF5E3' },

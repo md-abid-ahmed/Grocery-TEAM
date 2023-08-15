@@ -237,5 +237,54 @@ export const products = [
         "reviewCount": 19
       }
     ]
-  }
+  },
+  {
+    "category": "Recipes",
+    "items": [
+      {
+        "name": "Milk",
+        "img": "https://media.istockphoto.com/id/1271035466/vector/illustration-of-the-milk-cold-drink.jpg?s=612x612&w=0&k=20&c=ntRLDVh2RaDt-BuWszDfNAG--YpqG1ReXuWMxtyHv3Q=",
+        "id": 12,
+        "price": 2.99,
+        "total": 2.99,
+        "quantity": 1,
+        "unit": 'ltr',
+        "reviews": 4.4,
+        "reviewCount": 19
+      },
+      {
+        "name": "Cheese",
+        "img": "https://static.vecteezy.com/system/resources/previews/002/009/138/large_2x/three-wedges-of-yellow-cheese-with-holes-on-white-background-photo.jpg",
+        "id": 13,
+        "price": 4.99,
+        "total": 4.99,
+        "quantity": 1,
+        "unit": 'kg',
+        "reviews": 4.8,
+        "reviewCount": 32
+      },
+      {
+        "name": "Yogurt",
+        "img": "https://img.freepik.com/premium-photo/fresh-greek-yogurt-isolated-white-background_88281-4071.jpg",
+        "id": 14,
+        "price": 1.99,
+        "total": 1.99,
+        "quantity": 1,
+        "unit": 'kg',
+        "reviews": 4.2,
+        "reviewCount": 15
+      },
+      {
+        "name": "Butter",
+        "img": "https://img.freepik.com/premium-photo/butter-butterdish-isolated-white-background-with-clipping-path_625448-1364.jpg?w=2000",
+        "id": 15,
+        "price": 3.49,
+        "total": 3.49,
+        "quantity": 1,
+        "unit": 'kg',
+        "reviews": 4.6,
+        "reviewCount": 27
+      }
+    ]
+  },
 ]
